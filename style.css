@@ -36,6 +36,8 @@ button {
   width:100px;
   height:100px;
   margin:3px;
+  font-family: verdana;
+  color: black;
 }
 
 #button1 {
