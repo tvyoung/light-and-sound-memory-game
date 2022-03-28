@@ -46,12 +46,19 @@ The following **additional** features are implemented:
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
 win game:
+
 ![](https://cdn.glitch.global/9d263e4d-d164-47a9-bf84-55f7d9924acf/win%20game.gif?v=1648445451899)
+
 lose game:
+
 ![](https://cdn.glitch.global/9d263e4d-d164-47a9-bf84-55f7d9924acf/lose%20game.gif?v=1648445716380)
+
 answer key feature (part 1):
+
 ![](https://cdn.glitch.global/9d263e4d-d164-47a9-bf84-55f7d9924acf/answer%20key%20part%201.gif?v=1648446623016)
+
 answer key feature (part 2):
+
 ![](https://cdn.glitch.global/9d263e4d-d164-47a9-bf84-55f7d9924acf/answer%20key%20part%202.gif?v=1648446889822)
 
 ## Reflection Questions
