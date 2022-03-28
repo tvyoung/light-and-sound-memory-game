@@ -64,7 +64,8 @@ answer key feature (part 2):
 ## Reflection Questions
 
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
-   I mostly searched up the answer for any problems I was having; most of my knowledge of coding comes from the classes I've taken so far in Python, C, and Java, so applying that knowledge to this project helped me understand JavaScript relatively easily. It was just a matter of understanding the formatting that JavaScript used, and how to make things show up from Javascript to HTML.
+
+I mostly searched up the answer for any problems I was having; most of my knowledge of coding comes from the classes I've taken so far in Python, C, and Java, so applying that knowledge to this project helped me understand JavaScript relatively easily. It was just a matter of understanding the formatting that JavaScript used, and how to make things show up from Javascript to HTML.
 
 - button colors: https://www.rapidtables.com/web/css/css-color.html
 - how to add elements to array in javascript: https://stackoverflow.com/questions/351409/how-to-append-something-to-an-array
