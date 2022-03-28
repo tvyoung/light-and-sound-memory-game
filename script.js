@@ -1,17 +1,31 @@
 // global constants
-const clueHoldTime = 1000; //how long to hold each clue's light/sound
+const clueHoldTime = 500; //how long to hold each clue's light/sound
 const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 
 //Global Variables
-var pattern = [2, 2, 4, 3, 2, 1, 2, 4];
+var pattern = [];
 var progress = 0; 
 var gamePlaying = false;
 var tonePlaying = false;
 var volume = 0.5;  //must be between 0.0 and 1.0
 var guessCounter = 0;
 
+//generates new pattern for each game (sequence of 8)
+function newPattern() {
+  for (let i = 0; i < 8; i++) {
+    pattern.push(Math.floor(Math.random() * 4) + 1);
+  }
+}
+
+//clears pattern
+function clearPattern() {
+  pattern = [];
+}
+
 function startGame() {
+  //create new pattern
+  newPattern();
   //initialize game variables
   progress = 0;
   gamePlaying = true;
@@ -22,6 +36,8 @@ function startGame() {
 }
 
 function stopGame() {
+  //clear pattern
+  clearPattern();
   gamePlaying = false;
   // swap the Start and Stop buttons
   document.getElementById("startBtn").classList.remove("hidden");
@@ -30,10 +46,10 @@ function stopGame() {
 
 // Sound Synthesis Functions
 const freqMap = {
-  1: 261.6,
-  2: 329.6,
-  3: 392,
-  4: 466.2
+  1: 200.6,
+  2: 300.6,
+  3: 400,
+  4: 500.2
 }
 
 function playTone(btn,len) { 
@@ -91,7 +107,7 @@ function playClueSequence() {
   context.resume()
   guessCounter = 0;
   let delay = nextClueWaitTime; //set delay to initial wait time
-  for(let i=0;i<=progress;i++){ // for each clue that is revealed so far
+  for(let i=0;i<=progress;i++) { // for each clue that is revealed so far
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
     delay += clueHoldTime 
@@ -138,4 +154,25 @@ function guess(btn) {
     //GAME OVER: LOSE
     loseGame();
   }
+}
+
+//shows answer key (current pattern)
+function showAnswer() {
+  document.getElementById("answerKey").classList.remove("hidden");
+  //prints pattern order
+  var text = document.getElementById("answerKey").innerHTML = pattern;
+  //hide "Answer Key" button, show "Hide Answer Key" button
+  document.getElementById("answerBtn").classList.add("hidden");
+  document.getElementById("hideAnswerBtn").classList.remove("hidden");
+}
+
+//hides answer key
+function hideAnswer() {
+  document.getElementById("answerKey").classList.add("hidden");
+  //clears text
+  var text = document.getElementById("answerKey").innerHTML = "";
+  //show "Answer Key button", hide "Hide Answer Key" button
+  document.getElementById("answerBtn").classList.remove("hidden");
+  document.getElementById("hideAnswerBtn").classList.add("hidden");
+  
 }
