@@ -17,9 +17,10 @@
     <!-- this is the start of content -->
     <h1>Light and Sound Memory Game</h1>
     <p>
-      Welcome to the game! Repeat back the sound pattern by pressing the according buttons. Created 2022.03.27.
-      By Vicki Young
+      Welcome to the game! Repeat back the sound pattern by pressing the according buttons. There is a different 8-button long pattern each try.
+      <br> Created on 2022.03.27. By Vicki Young
     </p>
+    
     <button id="startBtn" onclick="startGame()" >Start</button>
     <button id="stopBtn" onclick="stopGame()" class="hidden" >Stop</button>
     <div id="gameButtonArea">
@@ -28,5 +29,12 @@
       <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()" ></button>
       <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()" ></button>
     </div>
+    <br>
+    <button id="answerBtn" onclick="showAnswer()" >Answer Key</button>
+    <button id="hideAnswerBtn" onclick="hideAnswer()" class="hidden">Hide Answer Key</button>
+    <p2 id="answerKey" class="hidden">
+      <br><br> Current pattern sequence 
+    </p2>
+    
   </body>
 </html>
