@@ -96,7 +96,7 @@ Upon first understanding the purpose of the game, I immediately thought of the S
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://youtu.be/YsL7V8bPaWA)
 
 ## License
 
