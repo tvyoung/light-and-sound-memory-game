@@ -1,12 +1,12 @@
-# Pre-work - _Memory Game_
+# Pre-work - *Memory Game*
 
-**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program.
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
 Submitted by: Vicki Young
 
 Time spent: 7 hours spent in total
 
-Link to project:
+Link to project: 
 
 code: https://glitch.com/edit/#!/vicki-young-prework-light-and-sound-memory-game
 
@@ -16,25 +16,25 @@ live site: https://vicki-young-prework-light-and-sound-memory-game.glitch.me/
 
 The following **required** functionality is complete:
 
-- [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
-- [x] "Start" button toggles between "Start" and "Stop" when clicked.
-- [x] Game buttons each light up and play a sound when clicked.
-- [x] Computer plays back sequence of clues including sound and visual cue for each button
-- [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess.
-- [x] User wins the game after guessing a complete pattern
-- [x] User loses the game after an incorrect guess
+* [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [x] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [x] Game buttons each light up and play a sound when clicked. 
+* [x] Computer plays back sequence of clues including sound and visual cue for each button
+* [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [x] User wins the game after guessing a complete pattern
+* [x] User loses the game after an incorrect guess
 
 The following **optional** features are implemented:
 
-- [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-- [x] Buttons use a pitch (frequency) other than the ones in the tutorial
-- [ ] More than 4 functional game buttons
-- [ ] Playback speeds up on each turn
-- [x] Computer picks a different pattern each time the game is played
-- [ ] Player only loses after 3 mistakes (instead of on the first mistake)
-- [x] Game button appearance change goes beyond color (e.g. add an image)
-- [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-- [ ] User has a limited amount of time to enter their guess on each turn
+* [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [ ] More than 4 functional game buttons
+* [ ] Playback speeds up on each turn
+* [x] Computer picks a different pattern each time the game is played
+* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [x] Game button appearance change goes beyond color (e.g. add an image)
+* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [ ] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
@@ -46,19 +46,26 @@ The following **additional** features are implemented:
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
 win game:
+
 ![](https://cdn.glitch.global/9d263e4d-d164-47a9-bf84-55f7d9924acf/win%20game.gif?v=1648445451899)
+
 lose game:
+
 ![](https://cdn.glitch.global/9d263e4d-d164-47a9-bf84-55f7d9924acf/lose%20game.gif?v=1648445716380)
+
 answer key feature (part 1):
+
 ![](https://cdn.glitch.global/9d263e4d-d164-47a9-bf84-55f7d9924acf/answer%20key%20part%201.gif?v=1648446623016)
+
 answer key feature (part 2):
+
 ![](https://cdn.glitch.global/9d263e4d-d164-47a9-bf84-55f7d9924acf/answer%20key%20part%202.gif?v=1648446889822)
 
 ## Reflection Questions
 
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
 
-   I mostly searched up the answer for any problems I was having; most of my knowledge of coding comes from the classes I've taken so far in Python, C, and Java, so applying that knowledge to this project helped me understand JavaScript relatively easily. It was just a matter of understanding the formatting that JavaScript used, and how to make things show up from Javascript to HTML.
+I mostly searched up the answer for any problems I was having; most of my knowledge of coding comes from the classes I've taken so far in Python, C, and Java, so applying that knowledge to this project helped me understand JavaScript relatively easily. It was just a matter of understanding the formatting that JavaScript used, and how to make things show up from Javascript to HTML.
 
 - button colors: https://www.rapidtables.com/web/css/css-color.html
 - how to add elements to array in javascript: https://stackoverflow.com/questions/351409/how-to-append-something-to-an-array
@@ -89,7 +96,7 @@ Upon first understanding the purpose of the game, I immediately thought of the S
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](https://drive.google.com/file/d/1ohb02gvb3Neeq_brqbR1VqFbkOMqAbqR/view?usp=sharing)
+[My 5-minute Interview Recording](your-link-here)
 
 ## License
 
