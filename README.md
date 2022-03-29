@@ -4,7 +4,7 @@
 
 Submitted by: Vicki Young
 
-Time spent: 6 hours spent in total
+Time spent: 7 hours spent in total
 
 Link to project:
 
@@ -88,7 +88,7 @@ Upon first understanding the purpose of the game, I immediately thought of the S
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://drive.google.com/file/d/1ohb02gvb3Neeq_brqbR1VqFbkOMqAbqR/view?usp=sharing)
 
 ## License
 
